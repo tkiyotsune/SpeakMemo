@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー / Privacy Policy — SpeakMemo</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", sans-serif;
+      background: #f4f6fb;
+      color: #333;
+      line-height: 1.8;
+    }
+    header {
+      background: #4561b0;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 1.6rem; font-weight: 700; }
+    header p  { font-size: 0.9rem; margin-top: 6px; color: #fff; }
+    .lang-switch {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin: 24px auto 0;
+    }
+    .lang-switch button {
+      background: rgba(255,255,255,0.25);
+      border: 1px solid rgba(255,255,255,0.5);
+      color: #fff;
+      padding: 6px 20px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .lang-switch button.active,
+    .lang-switch button:hover {
+      background: rgba(255,255,255,0.5);
+    }
+    main {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    section { margin-bottom: 36px; }
+    h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #4561b0;
+      border-left: 4px solid #4561b0;
+      padding-left: 12px;
+      margin-bottom: 12px;
+    }
+    p, li { font-size: 0.95rem; color: #444; }
+    ul { padding-left: 20px; }
+    ul li { margin-bottom: 6px; }
+    .divider {
+      border: none;
+      border-top: 2px dashed #c8d0e4;
+      margin: 48px 0;
+    }
+    .updated {
+      text-align: right;
+      font-size: 0.8rem;
+      color: #888;
+      margin-bottom: 24px;
+    }
+    a { color: #4561b0; }
+    .back {
+      display: inline-block;
+      margin-top: 24px;
+      font-size: 0.85rem;
+      color: #4561b0;
+      text-decoration: none;
+    }
+    .back:hover { text-decoration: underline; }
+    [lang-section="en"] { display: none; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>SpeakMemo</h1>
+  <p>プライバシーポリシー / Privacy Policy</p>
+  <div class="lang-switch">
+    <button id="btn-ja" class="active" onclick="showLang('ja')">日本語</button>
+    <button id="btn-en" onclick="showLang('en')">English</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== 日本語 ===== -->
+  <div lang-section="ja">
+    <p class="updated">最終更新日: 2026年4月16日</p>
+
+    <section>
+      <p>
+        本プライバシーポリシーは、iOS アプリ「SpeakMemo（スピークメモ）」(以下「本アプリ」) が取り扱う情報について説明するものです。本アプリは英語フレーズの発音練習を目的としたアプリケーションです。
+      </p>
+    </section>
+
+    <section>
+      <h2>1. 収集する情報</h2>
+      <p>本アプリは、以下の目的でデバイスの機能にアクセスします。</p>
+      <ul>
+        <li><strong>マイク:</strong> 英語の発音を録音し、音声認識を行うために使用します。録音された音声データはデバイス上でのみ処理され、外部サーバーへの送信や保存は行いません。</li>
+        <li><strong>音声認識:</strong> 発音の正確さを評価するために、Apple の音声認識機能 (Speech Framework) を使用します。音声認識の処理は Apple のサービスを通じて行われ、Apple のプライバシーポリシーに準拠します。</li>
+        <li><strong>広告識別子 (IDFA):</strong> Google AdMob を利用してバナー広告を表示します。広告の配信にあたり、App Tracking Transparency (ATT) フレームワークを通じてユーザーの許可を取得した上で、広告識別子を使用する場合があります。ユーザーがトラッキングを許可しない場合、非パーソナライズ広告が表示されます。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>2. データの保存</h2>
+      <p>本アプリで作成されたフレーズ、タグ、設定情報はすべてデバイス上にローカル保存されます。外部サーバーへのデータ送信は行いません。</p>
+    </section>
+
+    <section>
+      <h2>3. 第三者サービス</h2>
+      <p>本アプリは以下の第三者サービスを使用しています。</p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google AdMob</a> — 広告配信</li>
+        <li><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple Speech Framework</a> — 音声認識処理</li>
+      </ul>
+      <p style="margin-top:10px;">上記以外の第三者に情報を販売・提供することはありません。</p>
+    </section>
+
+    <section>
+      <h2>4. App Tracking Transparency (ATT)</h2>
+      <p>iOS 14 以降の端末では、初回起動時にアプリのトラッキングに関する許可を求めるダイアログを表示します。ユーザーが許可しない場合、パーソナライズ広告は表示されません。</p>
+    </section>
+
+    <section>
+      <h2>5. 子どものプライバシー</h2>
+      <p>本アプリは特定の年齢層を対象としたものではありません。13 歳未満のお子様が本アプリを利用する場合は、保護者の監督のもとでご利用ください。</p>
+    </section>
+
+    <section>
+      <h2>6. プライバシーポリシーの変更</h2>
+      <p>本プライバシーポリシーは予告なく変更されることがあります。変更があった場合、本ページにて更新内容を公開します。</p>
+    </section>
+
+    <section>
+      <h2>7. お問い合わせ</h2>
+      <p>本プライバシーポリシーに関するご質問は、以下までご連絡ください。</p>
+      <p style="margin-top:8px;">
+        開発者: Toshiaki Kiyotsune<br>
+        メール: <a href="mailto:tkiyowood@yahoo.co.jp">tkiyowood@yahoo.co.jp</a>
+      </p>
+    </section>
+
+    <a class="back" href="index.html">← トップに戻る</a>
+  </div>
+
+  <hr class="divider">
+
+  <!-- ===== English ===== -->
+  <div lang-section="en">
+    <p class="updated">Last updated: April 16, 2026</p>
+
+    <section>
+      <p>
+        This Privacy Policy describes how the iOS app <em>SpeakMemo</em> ("the App") handles information. The App is designed to help users practice English pronunciation.
+      </p>
+    </section>
+
+    <section>
+      <h2>1. Information Collected</h2>
+      <p>The App accesses the following device features for the purposes noted below.</p>
+      <ul>
+        <li><strong>Microphone:</strong> Used to record your voice for pronunciation recognition. Audio is processed on-device and is not transmitted to or stored on any external server.</li>
+        <li><strong>Speech Recognition:</strong> Apple's Speech Framework is used to evaluate pronunciation accuracy. Recognition is performed through Apple's services and is subject to Apple's Privacy Policy.</li>
+        <li><strong>Advertising identifier (IDFA):</strong> The App uses Google AdMob to display banner ads. With your permission via the App Tracking Transparency (ATT) framework, your advertising identifier may be used for ad personalization. If tracking is declined, non-personalized ads are shown.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>2. Data Storage</h2>
+      <p>All phrases, tags, and settings created in the App are stored locally on your device. No data is transmitted to external servers.</p>
+    </section>
+
+    <section>
+      <h2>3. Third-party Services</h2>
+      <p>The App uses the following third-party services.</p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google AdMob</a> — advertising</li>
+        <li><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple Speech Framework</a> — speech recognition</li>
+      </ul>
+      <p style="margin-top:10px;">We do not sell or share your information with any other third parties.</p>
+    </section>
+
+    <section>
+      <h2>4. App Tracking Transparency (ATT)</h2>
+      <p>On iOS 14 and later, the App will ask for your permission to track your activity on first launch. If you decline, only non-personalized ads will be shown.</p>
+    </section>
+
+    <section>
+      <h2>5. Children's Privacy</h2>
+      <p>The App is not directed to any specific age group. If a child under 13 uses the App, please supervise their use.</p>
+    </section>
+
+    <section>
+      <h2>6. Changes to This Policy</h2>
+      <p>This Privacy Policy may be updated without prior notice. Any changes will be posted on this page.</p>
+    </section>
+
+    <section>
+      <h2>7. Contact</h2>
+      <p>If you have any questions about this Privacy Policy, please contact:</p>
+      <p style="margin-top:8px;">
+        Developer: Toshiaki Kiyotsune<br>
+        Email: <a href="mailto:tkiyowood@yahoo.co.jp">tkiyowood@yahoo.co.jp</a>
+      </p>
+    </section>
+
+    <a class="back" href="index.html">← Back to top</a>
+  </div>
+
+</main>
+
+<script>
+  function showLang(lang) {
+    document.querySelectorAll('[lang-section]').forEach(el => {
+      el.style.display = el.getAttribute('lang-section') === lang ? 'block' : 'none';
+    });
+    document.getElementById('btn-ja').classList.toggle('active', lang === 'ja');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    document.querySelector('.divider').style.display = lang === 'ja' ? 'block' : 'none';
+    document.documentElement.lang = lang;
+  }
+  document.querySelectorAll('[lang-section="en"]').forEach(el => el.style.display = 'none');
+</script>
+</body>
+</html>
